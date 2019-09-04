@@ -6,6 +6,9 @@ language: bash
 git:
   depth: false 
 
+before_cache:
+  - brew cleanup
+
 cache:
   - directories:
     - $HOME/Library/Caches/Homebrew
