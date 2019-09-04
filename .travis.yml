@@ -5,6 +5,10 @@ language: bash
 
 git:
   depth: false 
+
+cache:
+  - directories:
+    - $HOME/Library/Caches/Homebrew
   
 before_install:
   - whoami
